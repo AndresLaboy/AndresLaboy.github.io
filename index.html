@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="user-scalable=no">
-        <link rel="icon" href="icon/icon.png" type="image/png">
-        <link rel="apple-touch-icon" href="icon/icon.png">
-        <link rel="stylesheet" type="text/css" href="css/game.css">
-        <title>Get To School 5</title>
-    </head>
-    <body style="background-color: black">
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        #content {
+            width: 70%;
+            background-color: lightblue;
+            margin: auto;
+        }
+
+        .smallBoxes {
+            width: 40%;
+            background-color: brown;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .bigBox {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .smallBoxes img {
+            width: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1 style="text-align:center;">My WebSite</h1>
+        <div class="bigBox">
+
+            <div class="smallBoxes">
+                <h2>About Me</h2>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Qui quam nemo minus voluptas, sit eum dicta dolor a est odio commodi unde ut distinctio?
+                    Suscipit dicta ab deserunt aliquam voluptates! </p>
+            </div>
+            <div class="smallBoxes">
+                <h2>My Game</h2>
+                <p>Click <a href="game/index.html">here</a> to play me game. </p>
+            </div>
+        </div>
+        <div class="bigBox">
+            <div class="smallBoxes">
+                <h2>schOHlegy</h2>
+                <img src="img/Gray Brick Wall.jfif" alt="" style="filter:invert(100%)">
+            </div>
+            <div class="smallBoxes">
+                <h2>Schoooology</h2>
+                <img src="img/Gray Brick Wall.jfif"" alt="" style="transform: scaleX(-1)">
+            </div>
+        </div>
+</body>
+
 </html>

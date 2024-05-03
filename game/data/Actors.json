@@ -27,6 +27,6 @@ null,
 {"id":25,"battlerName":"Actor31","characterIndex":0,"characterName":"Actor31","classId":31,"equips":[42,0,48,4,84],"faceIndex":0,"faceName":"Actor31","traits":[],"initialLevel":20,"maxLevel":99,"name":"Kristoph","nickname":"","note":"","profile":""},
 {"id":26,"battlerName":"Actor30","characterIndex":0,"characterName":"Actor30","classId":32,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Actor30","traits":[],"initialLevel":17,"maxLevel":99,"name":"Melady","nickname":"","note":"","profile":""},
 {"id":27,"battlerName":"","characterIndex":0,"characterName":"Nature_chara_MV","classId":33,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature_faces_MV","traits":[],"initialLevel":1,"maxLevel":99,"name":"Butterdog","nickname":"","note":"","profile":"The dog who has butter on his fur."},
-{"id":28,"battlerName":"","characterIndex":0,"characterName":"","classId":29,"equips":[6,6,50,6,97],"faceIndex":0,"faceName":"","traits":[],"initialLevel":99,"maxLevel":99,"name":"Erik","nickname":"","note":"","profile":""},
-{"id":29,"battlerName":"Actor36","characterIndex":0,"characterName":"Actor36","classId":1,"equips":[0,0,55,11,98],"faceIndex":0,"faceName":"Actor36","traits":[],"initialLevel":55,"maxLevel":99,"name":"Kaiya","nickname":"","note":"","profile":""}
+{"id":28,"battlerName":"Actor35","characterIndex":0,"characterName":"Actor35","classId":29,"equips":[6,6,50,6,97],"faceIndex":0,"faceName":"Actor35","traits":[],"initialLevel":99,"maxLevel":99,"name":"Erik","nickname":"","note":"","profile":""},
+{"id":29,"battlerName":"Actor36","characterIndex":0,"characterName":"Actor36","classId":34,"equips":[0,0,55,11,98],"faceIndex":0,"faceName":"Actor36","traits":[],"initialLevel":55,"maxLevel":99,"name":"Kaiya","nickname":"","note":"","profile":""}
 ]

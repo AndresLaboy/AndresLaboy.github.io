@@ -2,59 +2,94 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #content {
-            width: 70%;
-            background-color: lightblue;
-            margin: auto;
+        body {
+            background-color: burlywood;
         }
 
-        .smallBoxes {
-            width: 40%;
-            background-color: brown;
-            margin: 10px;
+        h1 {
             text-align: center;
         }
 
-        .bigBox {
-            display: flex;
-            justify-content: space-evenly;
+        #content {
+            background-color: aqua;
+            margin: auto;
+            width: 75%;
+            padding: 10px;
+            border-radius: 10px;
         }
 
-        .smallBoxes img {
-            width: 100%;
-            object-fit: contain;
+        #bigContainer {
+            background-color: rgb(128, 255, 255);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #smallContainer {
+            width: 40%;
+        }
+
+        .smallBox {
+            background-color: white;
+            margin: 10px;
+            padding: 4px;
+
+        }
+
+        .bigBox {
+            background-color: white;
+            margin: 10px;
+            width: 40%;
+            padding: 4px;
+        }
+
+        .allBoxes {
+            border: 1px solid black;
+            box-shadow: 5px 5px 1px black;
         }
     </style>
 </head>
 
 <body>
     <div id="content">
-        <h1 style="text-align:center;">My WebSite</h1>
-        <div class="bigBox">
-
-            <div class="smallBoxes">
-                <h2>About Me</h2>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Qui quam nemo minus voluptas, sit eum dicta dolor a est odio commodi unde ut distinctio?
-                    Suscipit dicta ab deserunt aliquam voluptates! </p>
+        <h1>Header</h1>
+        <div id="bigContainer">
+            <div id="smallContainer">
+                <div class="smallBox allBoxes">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero impedit, architecto dicta
+                        incidunt harum. At aliquid sunt sit quas dolores tempore, eos dicta tenetur delectus cupiditate
+                        cumque, eligendi illum.</p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Game</h2>
+                    <p>Click <a href="game/index.html">here</a> to play my game</p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Images</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse distinctio velit eum minus
+                        molestias. Nobis dolor, officiis quisquam quod consequuntur dolore assumenda dicta consequatur
+                        beatae reiciendis placeat fugiat dolorum.</p>
+                </div>
             </div>
-            <div class="smallBoxes">
-                <h2>My Game</h2>
-                <p>Click <a href="game/index.html">here</a> to play me game. </p>
+            <div class="bigBox allBoxes">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sit quisquam eius cum odio, obcaecati
+                    consequatur fugiat aliquid blanditiis perspiciatis illo saepe nam voluptas sint fuga dolorem
+                    doloribus eveniet corporis?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos a veritatis pariatur quasi ipsam
+                    reiciendis nobis repudiandae quo, molestiae, modi veniam animi impedit, quod ipsa. Iste assumenda
+                    inventore iusto similique?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repudiandae dolorum illum eum quia, sunt
+                    suscipit consectetur nam possimus adipisci eaque repellat nisi ad labore eveniet ipsum quisquam qui
+                    vero.</p>
             </div>
         </div>
-        <div class="bigBox">
-            <div class="smallBoxes">
-                <h2>schOHlegy</h2>
-                <img src="img/Gray Brick Wall.jfif" alt="" style="filter:invert(100%)">
-            </div>
-            <div class="smallBoxes">
-                <h2>Schoooology</h2>
-                <img src="img/Gray Brick Wall.jfif"" alt="" style="transform: scaleX(-1)">
-            </div>
-        </div>
+    </div>
 </body>
 
 </html>

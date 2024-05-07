@@ -4,92 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Andres' Website</title>
     <style>
-        body {
-            background-color: burlywood;
-        }
-
         h1 {
             text-align: center;
+            border: 3px solid black;
+            font-family: Verdana, Tahoma, sans-serif;
+            margin: 10px;
+            text-decoration-style: dotted;
+            text-decoration-line: underline;
+            justify-content: space-evenly;
         }
 
         #content {
-            background-color: aqua;
-            margin: auto;
-            width: 75%;
-            padding: 10px;
-            border-radius: 10px;
+            padding: 5px;
+            margin: 5px;
+            background-color: burlywood;
+            color: olive;
+            text-align: center;
+            font-family: Verdana, Tahoma, sans-serif;
+            margin: 10px;
+            text-shadow: 0px 1px;
+            justify-content: space-evenly;
         }
 
         #bigContainer {
-            background-color: rgb(128, 255, 255);
-            display: flex;
+            padding: 15px;
             justify-content: space-evenly;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+
+
+        .textBox {
+            border: 5px solid black;
             padding: 10px;
-            border-radius: 10px;
-        }
-
-        #smallContainer {
-            width: 40%;
-        }
-
-        .smallBox {
-            background-color: white;
             margin: 10px;
-            padding: 4px;
-
-        }
-
-        .bigBox {
-            background-color: white;
-            margin: 10px;
-            width: 40%;
-            padding: 4px;
-        }
-
-        .allBoxes {
-            border: 1px solid black;
-            box-shadow: 5px 5px 1px black;
+            justify-content: space-evenly;
         }
     </style>
 </head>
 
 <body>
     <div id="content">
-        <h1>Header</h1>
+        <h1>Home Page</h1>
+        <h2>Sections of Website</h2>
+        <p> <a href="aboutme/about.html">About Me</a> </p>
+        <p> <a href="/game/index.html">Game</a> </p>
         <div id="bigContainer">
-            <div id="smallContainer">
-                <div class="smallBox allBoxes">
-                    <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero impedit, architecto dicta
-                        incidunt harum. At aliquid sunt sit quas dolores tempore, eos dicta tenetur delectus cupiditate
-                        cumque, eligendi illum.</p>
+            <div id="boxesWithText">
+                <div class="textBox">
+                    <h2 style="text-decoration-line: underline;">My Experience with VScode and Making Websites</h2>
+                    <p>
+                        My experience with Vscode so far has been a mostly positive one due to the learning process not
+                        being to bad. Since the hardest part for me was at the begining when I didn't know much about
+                        the basic elements and attributes, but after I learned the basics the VScode learning process
+                        became a whole lot easier. This also led to my overall enjoyment of VScode being higher since
+                        then the hard part of VScode became trying to figure out how to get everything to look like how
+                        I wanted it to look like.
+                    </p> <img style="width:150px height=150px;" src="images/VScode.jfif">
                 </div>
-                <div class="smallBox allBoxes">
-                    <h2>Game</h2>
-                    <p>Click <a href="game/index.html">here</a> to play my game</p>
+                <div class="textBox">
+                    <h2 style="text-decoration-line: underline;">My Experience with RPG Maker MZ</h2>
+
+                    <P>My experience with RPG Maker MZ has been very positive. The reason it's so positive is due to how
+                        easy and simple RPG Maker is, this lead to my experience being positive since it allowed me to
+                        focus on my creativity instead of focusing on how to get something to happen or work. I hope you
+                        enjoy playing my game since I put a lot of work effort into. Especially on all the dialouge
+                        since I had to make sure to account for the differnet order players could do things.
+                    </P> <img style="width:150px height=150px;" src="images/RPGMAKERMZ.jfif">
                 </div>
-                <div class="smallBox allBoxes">
-                    <h2>Images</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse distinctio velit eum minus
-                        molestias. Nobis dolor, officiis quisquam quod consequuntur dolore assumenda dicta consequatur
-                        beatae reiciendis placeat fugiat dolorum.</p>
-                </div>
-            </div>
-            <div class="bigBox allBoxes">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sit quisquam eius cum odio, obcaecati
-                    consequatur fugiat aliquid blanditiis perspiciatis illo saepe nam voluptas sint fuga dolorem
-                    doloribus eveniet corporis?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos a veritatis pariatur quasi ipsam
-                    reiciendis nobis repudiandae quo, molestiae, modi veniam animi impedit, quod ipsa. Iste assumenda
-                    inventore iusto similique?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A repudiandae dolorum illum eum quia, sunt
-                    suscipit consectetur nam possimus adipisci eaque repellat nisi ad labore eveniet ipsum quisquam qui
-                    vero.</p>
+
+
             </div>
         </div>
     </div>
+
+
+
 </body>
 
 </html>
